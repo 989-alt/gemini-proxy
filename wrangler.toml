@@ -1,0 +1,11 @@
+name = "gemini-proxy"
+main = "src/worker.js"
+compatibility_date = "2025-11-01"
+
+# Each deployer creates their own KV namespace and pastes its id here:
+#   npx wrangler kv namespace create RATE
+# Then uncomment and fill in:
+#
+# [[kv_namespaces]]
+# binding = "RATE"
+# id = "your_kv_namespace_id_here"
